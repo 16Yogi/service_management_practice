@@ -1,0 +1,192 @@
+.nav-sec{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    z-index: 1;
+    background-color: white;
+}
+.nav-sec .logo{
+    font-size: 26px;
+}
+
+/* banner */
+.banner{
+    height: 300px;
+    width: 100%; 
+}
+.banner #img{
+    height: 300px;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner #img:nth-child(1){
+    background-image:url("https://images.pexels.com/photos/1654760/pexels-photo-1654760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.banner #img:nth-child(2){
+    background-image: url("https://media.istockphoto.com/id/1437355350/photo/cargo-containes-at-sea-port-global-business.jpg?s=1024x1024&w=is&k=20&c=BTRI-6z04rWtJGEe0T5SzZWNq5qVp3JFtR0DvveKnyk=");
+}
+.banner #img:nth-child(3){
+    background-image: url("https://media.istockphoto.com/id/1437355350/photo/cargo-containes-at-sea-port-global-business.jpg?s=1024x1024&w=is&k=20&c=BTRI-6z04rWtJGEe0T5SzZWNq5qVp3JFtR0DvveKnyk=");
+}
+
+.items{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.items img{
+    height: 200px;
+    width: 100%;
+}
+
+/* footer */
+#footer-cf{
+    color: white;
+    background: rgb(2,1,24);
+    background: linear-gradient(90deg, rgba(2,1,24,1) 0%, rgba(1,1,46,1) 35%, rgba(0,0,0,1) 100%);
+}
+#footer-cf h2{
+    font-size: 30px;
+    line-height: 100px;
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+}
+#footer-cf h4{
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#footer-cf ul{
+    height: auto;
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-cf ul li a{
+    font-size: 22px;
+    color: white;
+}
+#footer-cf ul li a:hover{
+    transition: 0.5s;
+    color: rgb(53, 255, 255);
+}
+#footer-cf #form input{
+    width: 70%;
+    margin-right: 4%;
+    display: inline-block;
+}
+#footer-cf #form button{
+    width: 26%;
+    margin-top: -6px;
+    font-weight: 700;
+    display: inline-block;
+}
+#copyright{
+    font-weight: 700;
+    color: white;
+    background-color: black;
+}
+
+/* login form */
+.login-form{
+    height: auto;
+    width: 35%;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.login-form a{
+    color: gray;
+    font-size: 12px;
+}
+.login-form button{
+    width: 100%;
+    display: block;
+}
+
+/* singup */
+.logup-form{
+    height: auto;
+    width: 50%;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.logup-form a{
+    color: gray;
+    font-size: 12px;
+}
+.logup-form button{
+    width: 100%;
+    display: block;
+}
+
+
+
+  .tracker {
+      width: 400px;
+      margin: 50px auto;
+      position: relative;
+      font-family: Arial, sans-serif;
+    }
+
+    .steps {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      z-index: 2;
+    }
+
+    .step {
+      text-align: center;
+      width: 33%;
+    }
+
+    .circle {
+      width: 20px;
+      height: 20px;
+      margin: 0 auto;
+      border-radius: 50%;
+      background-color: gray;
+      z-index: 2;
+    }
+
+    .label {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .progress-line {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      height: 6px;
+      background-color: gray;
+      z-index: 1;
+    }
+
+    .progress-fill {
+      height: 6px;
+      background-color: orange;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 2;
+      transition: width 0.4s ease;
+    }
+
+    .active .circle {
+      background-color: darkgreen;
+    }
